@@ -27,7 +27,7 @@ function cellClicked(index) {
         }
     }
 }
-
+//Track winner
 function checkWinner() {
     return winningCombinations.some(combination => {
         return combination.every(index => board[index] === currentPlayer);
