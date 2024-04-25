@@ -11,6 +11,7 @@ const winningCombinations = [
     [2, 4, 6]
 ];
 
+// Take index as input
 function cellClicked(index) {
     if (!board[index]) {
         board[index] = currentPlayer;
